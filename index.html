@@ -13,12 +13,33 @@
     <link rel="stylesheet" href="./assets/fonts/AvenirNextCyr/stylesheet.css" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    
+
     <!-- IMask for phone input -->
     <script src="https://unpkg.com/imask"></script>
-    
+
     <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <style>
+      body {
+        overflow-x: hidden !important;
+        max-width: 100vw;
+      }
+      
+      html {
+        overflow-x: hidden !important;
+        max-width: 100vw;
+      }
+      
+      /* Предотвращаем любое переполнение */
+      * {
+        max-width: 100%;
+      }
+      
+    </style>
   </head>
   <body>
     <header
@@ -82,13 +103,13 @@
     </section>
 
     <section
-      class="mt-[8rem] lg:mt-10 bg-[url('./assets/img/bg-gradient.svg')] bg-cover bg-norepeat lg:py-10"
+      class="mt-[13rem] lg:mt-10 bg-[url('./assets/img/bg-gradient.svg')] bg-cover bg-norepeat lg:py-10"
     >
       <div
-        class="w-10/12 lg:w-9/12 mx-auto grid items-center grid-cols-1 lg:grid-cols-2"
+        class="w-10/12 lg:w-9/12 mx-auto grid items-center grid-cols-1 lg:grid-cols-2 pb-10 lg:pb-0"
       >
         <div
-          class="flex flex-col justify-centers order-2 lg:order-1 mt-10 lg:mt-0"
+          class="flex flex-col justify-centers order-2 lg:order-1 mt-[6rem] lg:mt-0"
         >
           <h2 class="f-bebas text-4xl lg:text-md text-white">
             Герметики Стиз: Комплексная <br />
@@ -120,544 +141,562 @@
           <img
             src="./assets/video/1window_8.gif"
             alt="okno"
-            class="-mt-[40%] w-[150%] lg:w-[200%] scale-125 transform"
+            class="-mt-[40%] w-[250%] lg:w-[200%] scale-125 lg:scale-125 transform max-w-none"
           />
         </div>
       </div>
     </section>
 
-    <section class="w-10/12 lg:w-9/12 mx-auto py-20">
-      <div class="flex justify-center items-end border-b border-[#979797]">
+    <section class="py-20">
+      <div class="flex justify-center items-end border-b border-[#979797] px-6">
         <button
           class="tab-btn text-[#BDBDBD] py-6 px-3 flex justify-center cursor-pointer -mb-[1px]"
           data-tab="1"
         >
-          <img src="./assets/img/tab1.svg" alt="" class="w-[70%]" />
+          <img src="./assets/img/tab1.svg" alt="" class="w-[70%] lg:w-[70%]" />
         </button>
         <button
           class="tab-btn text-[#BDBDBD] py-6 px-3 flex justify-center cursor-pointer -mb-[1px]"
           data-tab="2"
         >
-          <img src="./assets/img/tab2.svg" alt="" class="w-[70%]" />
+          <img src="./assets/img/tab2.svg" alt="" class="w-[70%] lg:w-[70%]" />
         </button>
         <button
           class="tab-btn text-[#BDBDBD] py-6 px-3 flex justify-center cursor-pointer -mb-[1px]"
           data-tab="3"
         >
-          <img src="./assets/img/tab3.svg" alt="" class="w-[70%]" />
+          <img src="./assets/img/tab3.svg" alt="" class="w-[70%] lg:w-[70%]" />
         </button>
       </div>
 
-      <div class="tab-content mt-22 hidden" data-aos="fade-up" id="tab-1">
-        <div
-          class="grid items-center w-10/12 mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 gap-10 mt-10"
-        >
-          <div>
-            <video
-              src="./assets/video/red.mp4"
-              autoplay
-              muted
-              loop
-              playsinline
-              width="369px"
-            ></video>
-          </div>
-
-          <div class="relative mt-5 lg:mt-0">
+      <div class="w-10/12 lg:w-9/12 mx-auto">
+        <div class="tab-content mt-22 hidden" data-aos="fade-up" id="tab-1">
+          <div
+            class="grid items-center w-10/12 mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 gap-10 mt-10"
+          >
             <div>
-              <div class="relative inline-block">
-                <h2 class="f-bebas text-4xl lg:text-[50px]">Герметик Стиз А</h2>
-              </div>
-              <span class="block mb-3 mt-1 text-sm lg:text-[18px]"
-                >СТО 034-37547621-2016</span
-              >
-              <p class="text-[18px]">
-                Однокомпонентный акрилатный паропроницаемый герметик. Герметик предназначен для устройства наружного слоя монтажного шва в узлах примыкания оконных блоков (включая балконные) к проемам стен отапливаемых зданий гражданского и промышленного строительства.
-              </p>
+              <video
+                src="./assets/video/red.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+                width="369px"
+              ></video>
             </div>
-            <div class="absolute -top-7 lg:-top-13 -right-7 lg:-right-13">
-              <img
-                src="./assets/img/arrow_top.svg"
-                alt=""
-                class="w-[49px] lg:w-[81.5px] lg:h-[81px]"
-              />
-            </div>
-            <div class="absolute -bottom-7 lg:-bottom-13 -left-7 lg:-left-13">
-              <img
-                src="./assets/img/arrow_bottom.svg"
-                alt=""
-                class="w-[49px] lg:w-[81.5px] lg:h-[81px]"
-              />
-            </div>
-          </div>
-        </div>
 
-        <div class="grid grid-cols-1 items-center lg:grid-cols-4 mt-22 gap-5">
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              Ведро 7 кг
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-1.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              Ведро 7 кг
-            </span>
-
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              Ведро 3 кг
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-2.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              Ведро 3 кг
-            </span>
-
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              колюаса 1 кг
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-3.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              колюаса 1 кг
-            </span>
-
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              тюбик 500 гр
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-3.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              тюбик 500 гр
-            </span>
-
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="tab-content mt-22 hidden" data-aos="fade-up" id="tab-2">
-        <div
-          class="grid items-center w-10/12 mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 gap-10 mt-10"
-        >
-          <div class="p-10">
-            <video
-              src="./assets/video/blue.mp4"
-              autoplay
-              muted
-              loop
-              width="369px"
-            ></video>
-          </div>
-
-          <div class="relative mt-5 lg:mt-0">
-            <div>
-              <div class="relative inline-block">
-                <h2 class="f-bebas text-4xl lg:text-5xl">Герметик Стиз В</h2>
-
-                <div class="absolute -top-7 lg:-top-13 -right-7 lg:-right-13">
-                  <img
-                    src="./assets/img/arrow_top-blue.svg"
-                    alt=""
-                    class="w-[49px] lg:w-full rotate-90"
-                  />
+            <div class="relative mt-5 lg:mt-0">
+              <div>
+                <div class="relative inline-block">
+                  <h2 class="f-bebas text-4xl lg:text-[50px]">
+                    Герметик Стиз А
+                  </h2>
                 </div>
+                <span class="block mb-3 mt-1 text-sm lg:text-[18px]"
+                  >СТО 034-37547621-2016</span
+                >
+                <p class="text-[18px]">
+                  Однокомпонентный акрилатный паропроницаемый герметик. Герметик
+                  предназначен для устройства наружного слоя монтажного шва в
+                  узлах примыкания оконных блоков (включая балконные) к проемам
+                  стен отапливаемых зданий гражданского и промышленного
+                  строительства.
+                </p>
               </div>
-              <span class="block mb-3 mt-1 text-sm lg:text-base"
-                >СТО 028-37547621-2016</span
+              <div class="absolute -top-7 lg:-top-13 -right-7 lg:-right-13">
+                <img
+                  src="./assets/img/arrow_top.svg"
+                  alt=""
+                  class="w-[49px] lg:w-[81.5px] lg:h-[81px]"
+                />
+              </div>
+              <div class="absolute -bottom-7 lg:-bottom-13 -left-7 lg:-left-13">
+                <img
+                  src="./assets/img/arrow_bottom.svg"
+                  alt=""
+                  class="w-[49px] lg:w-[81.5px] lg:h-[81px]"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 items-center lg:grid-cols-4 mt-22 gap-5">
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
               >
-              <p class="">
-                Однокомпонентный акрилатный пароизоляционный герметик. Герметик предназначен для устройства внутреннего слоя монтажного шва в узлах примыкания оконных блоков (включая балконные) к проемам стен отапливаемых зданий гражданского и промышленного строительства.
-              </p>
+                Ведро 7 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5"
+              >
+                <img
+                  src="./assets/img/stiza-1.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                Ведро 7 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
             </div>
 
-            <div class="absolute -bottom-7 lg:-bottom-13 -left-7 lg:-left-13">
-              <img
-                src="./assets/img/arrow_bottom-blue.svg"
-                alt=""
-                class="w-[49px] lg:w-full rotate-90"
-              />
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                Ведро 3 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5"
+              >
+                <img
+                  src="./assets/img/stiza-2.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                Ведро 3 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
+            </div>
+
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                колюаса 1 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5"
+              >
+                <img
+                  src="./assets/img/stiza-3.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                колюаса 1 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
+            </div>
+
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                тюбик 500 гр
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5"
+              >
+                <img
+                  src="./assets/img/stiza-3.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                тюбик 500 гр
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 items-center lg:grid-cols-4 mt-22 gap-5">
+        <div class="tab-content mt-22 hidden" data-aos="fade-up" id="tab-2">
           <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            class="grid items-center w-10/12 mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 gap-10 mt-10"
           >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              Ведро 7 кг
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-1.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
+            <div class="p-10">
+              <video
+                src="./assets/video/blue.mp4"
+                autoplay
+                muted
+                loop
+                width="369px"
+              ></video>
             </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              Ведро 7 кг
-            </span>
 
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
+            <div class="relative mt-5 lg:mt-0">
+              <div>
+                <div class="relative inline-block">
+                  <h2 class="f-bebas text-4xl lg:text-5xl">Герметик Стиз В</h2>
 
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              Ведро 3 кг
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-2.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              Ведро 3 кг
-            </span>
-
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              колюаса 1 кг
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-3.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              колюаса 1 кг
-            </span>
-
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              тюбик 500 гр
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-3.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              тюбик 500 гр
-            </span>
-
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="tab-content mt-22 hidden" data-aos="fade-up" id="tab-3">
-        <div
-          class="grid items-center w-10/12 mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 gap-10 mt-10"
-        >
-          <div class="p-10">
-            <video
-              src="./assets/video/purple.mp4"
-              autoplay
-              muted
-              loop
-              width="369px"
-              e
-            ></video>
-          </div>
-
-          <div class="relative mt-5 lg:mt-0">
-            <div>
-              <div class="relative inline-block">
-                <h2 class="f-bebas text-4xl lg:text-5xl">Герметик Стиз Д</h2>
-
-                <div class="absolute -top-7 lg:-top-13 -right-7 lg:-right-13">
-                  <img
-                    src="./assets/img/arrow_top-purple.svg"
-                    alt=""
-                    class="w-[49px] lg:w-full"
-                  />
+                  <div class="absolute -top-7 lg:-top-13 -right-7 lg:-right-13">
+                    <img
+                      src="./assets/img/arrow_top-blue.svg"
+                      alt=""
+                      class="w-[49px] lg:w-full rotate-90"
+                    />
+                  </div>
                 </div>
+                <span class="block mb-3 mt-1 text-sm lg:text-base"
+                  >СТО 028-37547621-2016</span
+                >
+                <p class="">
+                  Однокомпонентный акрилатный пароизоляционный герметик.
+                  Герметик предназначен для устройства внутреннего слоя
+                  монтажного шва в узлах примыкания оконных блоков (включая
+                  балконные) к проемам стен отапливаемых зданий гражданского и
+                  промышленного строительства.
+                </p>
               </div>
-              <span class="block mb-3 mt-1 text-sm lg:text-base"
-                >СТО 150-37547621-2020</span
+
+              <div class="absolute -bottom-7 lg:-bottom-13 -left-7 lg:-left-13">
+                <img
+                  src="./assets/img/arrow_bottom-blue.svg"
+                  alt=""
+                  class="w-[49px] lg:w-full rotate-90"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 items-center lg:grid-cols-4 mt-22 gap-5">
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
               >
-              <p class="">
-                Стиз Д используется для создания дополнительного слоя монтажного шва узла примыкания оконных блоков к стеновым проемам. Устройство дополнительного слоя с использованием Стиз Д обеспечивает существенное снижение риска потери теплоизоляционных свойств монтажного шва.
-              </p>
+                Ведро 7 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-1.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                Ведро 7 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
             </div>
 
-            <div class="absolute -bottom-7 lg:-bottom-13 -left-7 lg:-left-13">
-              <img
-                src="./assets/img/arrow_bottom-purple.svg"
-                alt=""
-                class="w-[49px] lg:w-full"
-              />
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                Ведро 3 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-2.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                Ведро 3 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
+            </div>
+
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                колюаса 1 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-3.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                колюаса 1 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
+            </div>
+
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            >
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                тюбик 500 гр
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-3.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                тюбик 500 гр
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 items-center lg:grid-cols-4 mt-22 gap-5">
+        <div class="tab-content mt-22 hidden" data-aos="fade-up" id="tab-3">
           <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
+            class="grid items-center w-10/12 mx-auto lg:w-full grid-cols-1 lg:grid-cols-2 gap-10 mt-10"
           >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              Ведро 7 кг
-            </span>
-            <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
-            >
-              <img
-                src="./assets/img/stiza-1.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
+            <div class="p-10">
+              <video
+                src="./assets/video/purple.mp4"
+                autoplay
+                muted
+                loop
+                width="369px"
+                e
+              ></video>
             </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              Ведро 7 кг
-            </span>
 
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
+            <div class="relative mt-5 lg:mt-0">
+              <div>
+                <div class="relative inline-block">
+                  <h2 class="f-bebas text-4xl lg:text-5xl">Герметик Стиз Д</h2>
+
+                  <div class="absolute -top-7 lg:-top-13 -right-7 lg:-right-13">
+                    <img
+                      src="./assets/img/arrow_top-purple.svg"
+                      alt=""
+                      class="w-[49px] lg:w-full"
+                    />
+                  </div>
+                </div>
+                <span class="block mb-3 mt-1 text-sm lg:text-base"
+                  >СТО 150-37547621-2020</span
+                >
+                <p class="">
+                  Стиз Д используется для создания дополнительного слоя
+                  монтажного шва узла примыкания оконных блоков к стеновым
+                  проемам. Устройство дополнительного слоя с использованием Стиз
+                  Д обеспечивает существенное снижение риска потери
+                  теплоизоляционных свойств монтажного шва.
+                </p>
+              </div>
+
+              <div class="absolute -bottom-7 lg:-bottom-13 -left-7 lg:-left-13">
+                <img
+                  src="./assets/img/arrow_bottom-purple.svg"
+                  alt=""
+                  class="w-[49px] lg:w-full"
+                />
+              </div>
+            </div>
           </div>
 
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              Ведро 3 кг
-            </span>
+          <div class="grid grid-cols-1 items-center lg:grid-cols-4 mt-22 gap-5">
             <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
             >
-              <img
-                src="./assets/img/stiza-2.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                Ведро 7 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-1.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                Ведро 7 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
             </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              Ведро 3 кг
-            </span>
 
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              колюаса 1 кг
-            </span>
             <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
             >
-              <img
-                src="./assets/img/stiza-3.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                Ведро 3 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-2.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                Ведро 3 кг
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
             </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              колюаса 1 кг
-            </span>
 
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
-            >
-              Заказть
-            </a>
-          </div>
-
-          <div
-            class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
-          >
-            <span
-              class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
-            >
-              тюбик 500 гр
-            </span>
             <div
-              class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
             >
-              <img
-                src="./assets/img/stiza-3.png"
-                alt="icon"
-                class="w-full h-full object-contain"
-              />
-            </div>
-            <span
-              class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
-            >
-              тюбик 500 гр
-            </span>
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                колюаса 1 кг
+              </span>
+              <div
+                class="w-full h-[300px] lg:h-[250px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-3.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                колюаса 1 кг
+              </span>
 
-            <a
-              href="#"
-              class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
+            </div>
+
+            <div
+              class="flex flex-col justify-between items-center transition-all duration-500 ease-in-out rounded-2xl group hover:bg-[#1D355F] hover:py-5"
             >
-              Заказть
-            </a>
+              <span
+                class="text-center text-lg hidden f-bebas transition-all duration-500 ease-in-out group-hover:block text-white"
+              >
+                тюбик 500 гр
+              </span>
+              <div
+                class="h-[230px] border border-[#D3D3D3] transition-all duration-500 ease-in-out group-hover:border-none rounded-2xl flex items-center justify-center px-15 py-5 h-[170px]"
+              >
+                <img
+                  src="./assets/img/stiza-3.png"
+                  alt="icon"
+                  class="w-full h-full object-contain"
+                />
+              </div>
+              <span
+                class="text-center text-lg block mt-3 f-bebas transition-all duration-500 ease-in-out group-hover:hidden"
+              >
+                тюбик 500 гр
+              </span>
+
+              <a
+                href="#"
+                class="bg-[#2577EC] hidden transition-all duration-500 ease-in-out group-hover:inline-block hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg text-center text-white font-bold text-lg"
+              >
+                Заказть
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -679,18 +718,6 @@
       </div>
     </section>
 
-    <!-- <section class="w-10/12 lg:w-8/12 mx-auto py-12" data-aos="fade-up">
-		<h2 class="f-bebas text-3xl text-center">
-			Заказжите в один клик или <br> обртатиесь по телефонам: +7 777 777 77 77
-		</h2>
-
-		<div class="flex justify-center mt-4">
-			<a href="#" class="bg-[#2577EC] transition hover:bg-white hover:text-[#2577EC] hover:ring hover:ring-[#2577EC] py-3 px-15 rounded-lg inline-block text-center text-white font-bold text-lg">
-				Заказть
-			</a>
-		</div>
-	</section> -->
-
     <section class="w-10/12 lg:w-8/12 mx-auto py-24">
       <div data-aos="fade-up">
         <h2 class="text-4xl f-bebas text-center">Защита окон от:</h2>
@@ -699,7 +726,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
         <div class="mt-5 gap-20 mt-10" data-aos="fade-right">
           <div class="flex justify-center">
-            <img src="./assets/img/protect-1.png" alt="" />
+            <img src="./assets/img/protect-3.png" alt="" />
           </div>
 
           <div class="relative mt-10">
@@ -709,7 +736,11 @@
               </div>
 
               <p class="mt-3 text-base">
-                Плесень – это не только эстетическая проблема. Споры грибка, размножающиеся во влажной среде, могут вызывать аллергические реакции, проблемы с дыханием и другие заболевания. Герметики Стиз создают надежный барьер против плесени, защищая ваш дом и здоровье вашей семьи.
+                Плесень – это не только эстетическая проблема. Споры грибка,
+                размножающиеся во влажной среде, могут вызывать аллергические
+                реакции, проблемы с дыханием и другие заболевания. Герметики
+                Стиз создают надежный барьер против плесени, защищая ваш дом и
+                здоровье вашей семьи.
               </p>
             </div>
 
@@ -735,11 +766,16 @@
           <div class="relative mt-10">
             <div>
               <div class="relative inline-block">
-                <h2 class="f-bebas text-4xl lg:text-3xl">Защита от продувания</h2>
+                <h2 class="f-bebas text-4xl lg:text-3xl">
+                  Защита от продувания
+                </h2>
               </div>
 
               <p class="mt-3 text-base">
-                ащитите свой дом от сквозняков и холода с помощью герметиков Стиз. Идеально подходят для герметизации окон, обеспечивая надежную защиту от продувания и сохраняя тепло внутри помещения. Сделайте ваш дом теплее и комфортнее с герметиками Стиз.
+                Защитите свой дом от сквозняков и холода с помощью герметиков
+                Стиз. Идеально подходят для герметизации окон, обеспечивая
+                надежную защиту от продувания и сохраняя тепло внутри помещения.
+                Сделайте ваш дом теплее и комфортнее с герметиками Стиз.
               </p>
             </div>
 
@@ -759,17 +795,23 @@
 
         <div class="mt-5 gap-20 mt-10" data-aos="fade-right">
           <div class="flex justify-center">
-            <img src="./assets/img/protect-3.png" alt="" />
+            <img src="./assets/img/protect-1.png" alt="" />
           </div>
 
           <div class="relative mt-10">
             <div>
               <div class="relative inline-block">
-                <h2 class="f-bebas text-4xl lg:text-3xl">Защита от промерзания</h2>
+                <h2 class="f-bebas text-4xl lg:text-3xl">
+                  Защита от промерзания
+                </h2>
               </div>
 
               <p class="mt-3 text-base">
-                Промерзание окон приводит к значительным потерям тепла и увеличению расходов на отопление. Герметики Стиз помогают предотвратить промерзание, сохраняя тепло внутри помещения и снижая затраты на энергию. Инвестируйте в комфорт и экономию – выбирайте Стиз!
+                Промерзание окон приводит к значительным потерям тепла и
+                увеличению расходов на отопление. Герметики Стиз помогают
+                предотвратить промерзание, сохраняя тепло внутри помещения и
+                снижая затраты на энергию. Инвестируйте в комфорт и экономию –
+                выбирайте Стиз!
               </p>
             </div>
 
@@ -921,55 +963,72 @@
     </footer>
 
     <!-- Modal -->
-    <div id="orderModal" class="fixed inset-0 hidden z-50 flex items-center justify-center" style="background-color: rgba(0, 0, 0, 0.80);"> 
+    <div
+      id="orderModal"
+      class="fixed inset-0 hidden z-50 flex items-center justify-center"
+      style="background-color: rgba(0, 0, 0, 0.8)"
+    >
       <div class="bg-white rounded-2xl p-8 m-4 max-w-md w-full relative">
         <!-- Close button -->
-        <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl">
+        <button
+          id="closeModal"
+          class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl"
+        >
           ×
         </button>
-        
+
         <!-- Modal content -->
         <div class="text-center">
           <h2 class="f-bebas text-3xl text-[#1D355F] mb-6">Оформить заказ</h2>
-          
+
           <form id="orderForm" class="space-y-4">
             <div>
-              <input 
-                type="text" 
-                id="customerName" 
-                placeholder="Ваше имя" 
+              <input
+                type="text"
+                id="customerName"
+                placeholder="Ваше имя"
                 required
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2577EC] focus:border-transparent"
               />
             </div>
-            
+
             <div>
-              <input 
-                type="tel" 
-                id="customerPhone" 
-                placeholder="+7 (___) ___-__-__" 
+              <input
+                type="tel"
+                id="customerPhone"
+                placeholder="+7 (___) ___-__-__"
                 required
                 class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2577EC] focus:border-transparent"
               />
             </div>
-            
+
             <div id="selectedProduct" class="text-sm text-gray-600 mb-4"></div>
-            
-            <button 
+
+            <button
               type="submit"
               class="w-full bg-[#2577EC] text-white py-3 px-6 rounded-lg font-bold text-lg transition hover:bg-[#1e63c7] focus:outline-none focus:ring-2 focus:ring-[#2577EC] focus:ring-offset-2"
             >
               Отправить заказ
             </button>
           </form>
-          
+
           <!-- Success message -->
           <div id="successMessage" class="hidden">
             <div class="text-green-600 text-center">
-              <svg class="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-16 h-16 mx-auto mb-4"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
               </svg>
-              <h3 class="f-bebas text-2xl text-[#1D355F] mb-2">Спасибо за заказ!</h3>
+              <h3 class="f-bebas text-2xl text-[#1D355F] mb-2">
+                Спасибо за заказ!
+              </h3>
               <p class="text-gray-600">Мы свяжемся с вами в ближайшее время</p>
             </div>
           </div>
