@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="941px" height="365px" viewBox="0 0 941 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle Copy 2</title>
+    <defs>
+        <linearGradient x1="24.0502125%" y1="40.8049225%" x2="68.2692946%" y2="56.7537269%" id="linearGradient-1">
+            <stop stop-color="#386DB1" offset="0%"></stop>
+            <stop stop-color="#1D355F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-29, -704)" fill="url(#linearGradient-1)">
+            <rect id="Rectangle-Copy-2" x="29" y="704" width="941" height="365"></rect>
+        </g>
+    </g>
+</svg>
