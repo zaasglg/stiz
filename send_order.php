@@ -47,7 +47,7 @@ try {
     $mail->CharSet    = 'UTF-8';
 
     // Настройки письма
-    $mail->setFrom('stiz@dnmc.kz', 'Сайт СТИЗ');
+    $mail->setFrom('your-email@gmail.com', 'Сайт СТИЗ');
     $mail->addAddress('n4msin@mail.ru', 'Заказы СТИЗ');
 
     // Содержимое письма
